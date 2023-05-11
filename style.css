@@ -16,7 +16,7 @@ body {
 
   .information1 {
     display: inline-block;
-    margin-right: 40%;
+    margin-right: 200px;
   }
 
   .information2 {
@@ -41,6 +41,7 @@ body {
   }
 
   .profileImg{
+    height: 300px;
     display: flex;
     justify-content: center;
   }
@@ -68,7 +69,7 @@ body {
   }
 
   .header{
-    height: 60px;
+    height:60px;
     font-size: 20px;
     display:flex;
     align-items:center;
@@ -81,8 +82,8 @@ body {
   }
 
   .firstRow{
-    width: 85%;
-    height: 30%;
+    width:690px;
+    height:200px;
     padding:8px;
     display:flex;
     justify-content:space-between;
@@ -105,9 +106,9 @@ body {
 
   .secondRow{
     margin-top: 40px;
-    width: 85%;
-    height: 40%;
-    padding: 8px;
+    width:690px;
+    height:200px;
+    padding:8px;
   }
 
   .line {
@@ -131,5 +132,27 @@ body {
      display: block;
 
    }
+
+  }
+
+
+  @media (max-width: 550px) {
+
+    .firstRow{
+      width: 300px;
+      height: 400px;
+      padding:8px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:6px;
+    }
+
+    .secondRow{
+      margin-top: 40px;
+      width: 300px;
+      height: 300px;
+      padding:8px;
+    }
 
   }
