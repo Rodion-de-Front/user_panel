@@ -16,7 +16,7 @@ body {
 
   .information1 {
     display: inline-block;
-    margin-right: 200px;
+    margin-right: 40%;
   }
 
   .information2 {
@@ -41,7 +41,6 @@ body {
   }
 
   .profileImg{
-    height: 300px;
     display: flex;
     justify-content: center;
   }
@@ -69,7 +68,7 @@ body {
   }
 
   .header{
-    height:60px;
+    height: 60px;
     font-size: 20px;
     display:flex;
     align-items:center;
@@ -82,8 +81,8 @@ body {
   }
 
   .firstRow{
-    width:690px;
-    height:200px;
+    width: 85%;
+    height: 30%;
     padding:8px;
     display:flex;
     justify-content:space-between;
@@ -106,9 +105,9 @@ body {
 
   .secondRow{
     margin-top: 40px;
-    width:690px;
-    height:200px;
-    padding:8px;
+    width: 85%;
+    height: 40%;
+    padding: 8px;
   }
 
   .line {
