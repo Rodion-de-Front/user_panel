@@ -155,4 +155,9 @@ body {
       padding:8px;
     }
 
+    .information1 {
+      display: inline-block;
+      margin-right: 0;
+    }
+
   }
